@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.experiments.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/tvPause"
+            android:background="@drawable/ic_fast_rewind_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+         <TextView
+              android:id="@+id/tvPlay"
+             android:background="@drawable/ic_play_circle_filled_black_24dp"
+              android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_fast_forward_black_24dp"
+            />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_toRightOf="@id/btn"
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
